@@ -41,7 +41,7 @@ dependencies {
     def room_version = "2.3.0"
     def lifecycle_version = "2.3.1"
     def arch_version = "2.1.0"
-    def coroutines_version = "1.5.8"
+    def coroutines_version = "1.6.0"
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.1'
