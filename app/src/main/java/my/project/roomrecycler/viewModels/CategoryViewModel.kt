@@ -31,7 +31,7 @@ class CategoryViewModel(private val categoryRepository: CategoryRepository) : Vi
         categoryRepository.deleteCategory(categoryModel)
     }
 
-    fun deleteAllCategories(categoryModel: CategoryModel) = viewModelScope.launch {
+    fun deleteAll() = viewModelScope.launch {
         categoryRepository.deleteAllCategories()
     }
 

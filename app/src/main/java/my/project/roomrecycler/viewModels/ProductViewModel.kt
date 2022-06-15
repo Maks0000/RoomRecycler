@@ -12,8 +12,8 @@ class ProductViewModel(private val productRepository: ProductRepository) : ViewM
 
     val products = productRepository.products
 
-    fun getFilter(nameCategory:String,priceProduct:String): LiveData<List<ProductModel>>{
-        return productRepository.getFilter(nameCategory, priceProduct)
+    fun getFilter(nameCategory:String): LiveData<List<ProductModel>>{
+        return productRepository.getFilter(nameCategory)
     }
 
     fun startInsert(nameProduct:String, categoryProduct:String, priceProduct: String){

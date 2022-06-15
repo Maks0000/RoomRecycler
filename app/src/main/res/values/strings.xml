@@ -1,27 +1,26 @@
 <resources>
     <string name="app_name">RoomRecycler</string>
     <string name="panel">PANEL</string>
-    <string name="catalogProducts">ТОВАРЫ</string>
-    <string name="catalogClothes">ОДЕЖДА</string>
-    <string name="catalogCategories">КАТЕГОРИИ</string>
+    <string name="catalogProducts">PRODUCTS</string>
+    <string name="catalogClothes">CLOTHES</string>
+    <string name="catalogCategories">CATEGORIES</string>
 
 
-    <string name="addCategory">ДОБАВИТЬ КАТЕГОРИЮ</string>
-    <string name="addProduct">ДОБАВИТЬ ТОВАР</string>
+    <string name="addCategory">ADD CATEGORY</string>
+    <string name="addProduct">ADD TO PRODUCT</string>
 
-    <string name="editCategory">РЕДАКТИРОВАНИЕ КАТЕГОРИИ</string>
-    <string name="editProduct">РЕДАКТИРОВАНИЕ ТОВАРА</string>
+    <string name="editCategory">ADD TO PRODUCT</string>
+    <string name="editProduct">PRODUCT EDITING</string>
 
 
-    <string name="labelEnterCategory">Введите название категории</string>
-    <string name="labelEnterNameProduct">Введите название товара</string>
-    <string name="labelEnterPriceProduct">Введите цену товара</string>
+    <string name="labelEnterCategory">Enter a category name</string>
+    <string name="labelEnterNameProduct">Enter product name</string>
+    <string name="labelEnterPriceProduct">Enter the price of the item</string>
 
-    <string name="deleteAllCategories">УДАЛИТЬ ВСЕ КАТЕГОРИИ</string>
-    <string name="deleteAllProducts">УДАЛИТЬ ВСЕ ТОВАРЫ</string>
+    <string name="deleteAllCategories">DELETE ALL CATEGORIES</string>
+    <string name="deleteAllProducts">DELETE ALL ITEMS</string>
 
-    <string name="shoes">ОБУВЬ</string>
-    <string name="accessories">АКСЕССУАРЫ</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="shoes">SHOES</string>
+    <string name="accessories">ACCESSORIES</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

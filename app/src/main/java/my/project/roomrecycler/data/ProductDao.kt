@@ -22,6 +22,6 @@ interface ProductDao {
     @Query("SELECT * FROM product_data_table")
      fun getAllProducts(): LiveData<List<ProductModel>>
 
-     @Query("SELECT * FROM product_data_table WHERE product_category = :nameCategory AND product_price = :priceProduct")
-     fun getFilter(nameCategory:String,priceProduct:String): LiveData<List<ProductModel>>
+     @Query("SELECT * FROM product_data_table WHERE product_category = :nameCategory")
+     fun getFilter(nameCategory:String): LiveData<List<ProductModel>>
 }

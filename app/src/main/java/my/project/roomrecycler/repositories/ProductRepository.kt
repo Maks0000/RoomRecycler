@@ -9,8 +9,8 @@ import my.project.roomrecycler.models.ProductModel
 class ProductRepository(private val productDao: ProductDao) {
     val products = productDao.getAllProducts()
 
-    fun getFilter(nameCategory:String, priceProduct:String): LiveData<List<ProductModel>>{
-        return productDao.getFilter(nameCategory,priceProduct)
+    fun getFilter(nameCategory:String,): LiveData<List<ProductModel>>{
+        return productDao.getFilter(nameCategory)
     }
 
     suspend fun insertProduct(productModel: ProductModel){

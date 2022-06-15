@@ -10,8 +10,8 @@ import my.project.roomrecycler.models.ProductModel
 @Database(entities = [CategoryModel::class, ProductModel::class],version = 1)
 abstract class Database: RoomDatabase() {
 
-    abstract val productDao : ProductDao
-    abstract val categoryDao : CategoryDao
+    abstract val productDAO : ProductDao
+    abstract val categoryDAO : CategoryDao
 
     companion object {
         @Volatile
